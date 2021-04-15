@@ -31,4 +31,4 @@ Cambridge 출간 David Tse 지음
 하지만, 무선 통신은 수많은 path (경로), 반사 (reflected), 회절 (scattered)등 여러 변수가 있기에 완벽한 물리적 정의가 불가능 하다.
 
 ![ideal_model](https://user-images.githubusercontent.com/44052428/114882251-b9f60080-9e3e-11eb-9f62-00c0249616f1.png)
-<p align="center"><img src=![ideal_model](https://user-images.githubusercontent.com/44052428/114882251-b9f60080-9e3e-11eb-9f62-00c0249616f1.png)></p>
+<p align="center"><img src="![ideal_model](https://user-images.githubusercontent.com/44052428/114882251-b9f60080-9e3e-11eb-9f62-00c0249616f1.png)"></p>
