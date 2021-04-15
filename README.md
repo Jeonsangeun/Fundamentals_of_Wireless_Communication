@@ -17,7 +17,7 @@ Cambridge 출간 David Tse 지음
 무선 채널의 특징은 **시간 (time)**,  **주파수 (frequency)** 에따른 채널 강도 (the channel strength)의 변형 (variations)을 의미한다.
 대략적으로 2개의 type이 있다.
 
-<p align="center"><img src="./images/L_S_fading.png" width="70%" height="70%"/></p>
+<p align="center"><img src="./images/L_S_fading.png" width="50%" height="50%"/></p>
 
 1. Large-scale fading : 거리 또는 shadowing (장애물)의 영향으로 생기는 신호의 경로 감쇄를 뜻한다. 셀 크기를 벗어날만한 큰 이동에서 발생한다.
 그림에서 거리에 따라 채널 이득이 완만하게 떨어지는 기울이가 완만한 그래프이다.
