@@ -32,3 +32,4 @@ Cambridge 출간 David Tse 지음
 
 ![ideal_model](https://user-images.githubusercontent.com/44052428/114882251-b9f60080-9e3e-11eb-9f62-00c0249616f1.png){:.aligncenter}
 
+<img src="./images/ideal_model.jpg" width="50%" height="50%"/>
