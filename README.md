@@ -14,4 +14,15 @@ Cambridge 출간 David Tse 지음
 2. 모델링 문제
 등.. 이있다.
 
-무선 채널의 특징을 정의하기 위해서 채널 강도 (the channel strength)의  ● 시간 (time)  ● 주파수 (frequency) 
+무선 채널의 특징은 **시간 (time)**,  **주파수 (frequency)** 에따른 채널 강도 (the channel strength)의 변형 (variations)을 의미한다.
+대략적으로 2개의 type이 있다.
+
+![L_S_fading](https://user-images.githubusercontent.com/44052428/114838542-c1ea7c00-9e0f-11eb-8bac-f53d83e220c4.png)
+
+1. Large-scale fading : 거리 또는 shadowing (장애물)의 영향으로 생기는 신호의 경로 감쇄를 뜻한다. 셀 크기를 벗어날만한 큰 이동에서 발생한다.
+그림에서 거리에 따라 채널 이득이 완만하게 떨어지는 기울이가 완만한 그래프이다.
+--> cell-site planning 셀 사이즈에서 주로 관련있는 모델이다.
+
+2. Small-scale fading : 송 수신기 사이의 다중 (신호)경로로 인한 파괴적인 간섭으로 공간적 스케일이 작은 곳에서 주로 발생한다.
+그림에서 거리에 따른 채널이득이 자잘하게 변화하는 그래프이다.
+--> 통신 시스템을 안정적이고 효율적으로 디자인 하기위해서 이 모델을 더 탐구할 필요가 있다.
