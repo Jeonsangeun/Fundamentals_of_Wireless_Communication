@@ -6,7 +6,7 @@ Cambridge 출간 David Tse 지음
 #### 목표
 책의 주요 단원을 읽고 나름대로 정리해볼 것이며 정기 세미나 ppt는 업로드할 예정이다.
 
-##### 1. The Wireless Channel (2021.03.31)
+#### 1. The Wireless Channel (2021.03.31)
 무선 채널이 뭘까?
 
 무선채널을 이해하기 좋은 방법(Key)로는 
@@ -36,11 +36,10 @@ Cambridge 출간 David Tse 지음
 다음과 같은 시나리오가 있다. 이러한 물리적 모델을 잘 이해한다면 무선채널을 모델링 할때 충분히 도움이 될 것이다.
 그럼 이제 실제 무선채널을 설명할 수 있을 모델링 문제로 넘어가 보자!
 
-###### 1.1 Input/output model of the wireless channel
+##### 1.1 Input/output model of the wireless channel
 무선 채널을 모델링 하기 위해서 무선 채널의 입력과 출력을 알아야 할 필요가 있다.
 
 <p align="center"><img src="./images/IO_channel.png" width="50%" height="50%"/></p>
-
 
 ###### 1.1.1 The wireless channel as a linear time-varing system
 
