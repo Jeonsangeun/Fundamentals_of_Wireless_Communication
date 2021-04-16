@@ -51,5 +51,5 @@ Cambridge 출간 David Tse 지음
 
 이때 주파수 ![f](https://user-images.githubusercontent.com/44052428/114962982-bbf3aa00-9ea6-11eb-95ba-91d7bb9656d1.png)가 감쇄와 지연에 영향을 미치지 않는다고 가정하면 입/출력 모델을 일반화 하기위해 중첨의 원리를 사용하여 non-zero bandwidth인 입력 ![x](https://user-images.githubusercontent.com/44052428/114963252-4936fe80-9ea7-11eb-9441-e5044ce42068.png)인 입/출력 모델은 다음과 같다.
 
-<p align="center"><img src="./images/equ2.png" width="50%" height="50%"/></p>!
+<p align="center"><img src="./images/equ2.png" width="20%" height="20%"/></p>!
 
