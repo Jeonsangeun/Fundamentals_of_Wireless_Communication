@@ -39,11 +39,11 @@ Cambridge 출간 David Tse 지음
 ###### 1.1 Input/output model of the wireless channel
 무선 채널을 모델링 하기 위해서 무선 채널의 입력과 출력을 알아야 할 필요가 있다.
 
-<p align="center"><img src="./images/IO_channel.png" width="70%" height="70%"/></p>
+<p align="center"><img src="./images/IO_channel.png" width="50%" height="50%"/></p>
 
 ###### 1.1.1 The wireless channel as a linear time-varing system
 
 다중 경로 (multi-path)의 영향은 선형 시변 시스템 (linear time-varing system)으로 모델링 할 수 있다.
 일반적으로 신호의 입력 응답은 정현파로 나타낸다.
 
-\phi (t) = \cos2\pi f t
+$$\phi (t) = \cos2\pi f t$$
