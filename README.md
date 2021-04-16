@@ -47,3 +47,4 @@ Cambridge 출간 David Tse 지음
 일반적으로 신호의 입력 응답은 정현파로 나타낸다.
 
 $$[\phi (t) = \cos2\pi f t]$$
+<img src="https://latex.codecogs.com/svg.latex?\phi (t) = \cos2\pi f t" title="\phi (t) = \cos2\pi f t" /> 
