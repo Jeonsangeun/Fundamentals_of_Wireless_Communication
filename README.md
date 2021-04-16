@@ -46,4 +46,4 @@ Cambridge 출간 David Tse 지음
 다중 경로 (multi-path)의 영향은 선형 시변 시스템 (linear time-varing system)으로 모델링 할 수 있다.
 일반적으로 신호의 입력 응답은 정현파로 나타낸다.
 
-$$\phi (t) = \cos2\pi f t$$
+$$[\phi (t) = \cos2\pi f t]$$
