@@ -44,12 +44,10 @@ Cambridge 출간 David Tse 지음
 ###### 1.1.1 The wireless channel as a linear time-varing system
 
 다중 경로 (multi-path)의 영향은 선형 시변 시스템 (linear time-varing system)으로 모델링 할 수 있다.
-일반적으로 신호의 입력 응답은 정현파로 나타낸다.
+일반적으로 신호의 입력 응답은 정현파로 나타낸다. ![CodeCogsEqn1](https://user-images.githubusercontent.com/44052428/114958203-8bf3d900-9e9d-11eb-8a36-50f0569cf23b.gif)
 
-![CodeCogsEqn1](https://user-images.githubusercontent.com/44052428/114958203-8bf3d900-9e9d-11eb-8a36-50f0569cf23b.gif)
+신호는 path i에 따라 감쇄와 지연이 발생하여 송신단에게 전송된다. 감쇄 : ![a](https://user-images.githubusercontent.com/44052428/114962170-33c0d500-9ea5-11eb-8411-7e414981bf4f.png) 와 지연 : ![tau](https://user-images.githubusercontent.com/44052428/114962180-37545c00-9ea5-11eb-90a9-c7cc3fdba42d.png)이라면 송신단은 다음과 같은 신호 ![equ1](https://user-images.githubusercontent.com/44052428/114962011-ed6b7600-9ea4-11eb-85fb-c426ac6d1a64.png) 를 받을 것이다.
 
-신호는 path i에 따라 감쇄와 지연이 발생하여 송신단에게 전송된다. 감쇄 : ![a](https://user-images.githubusercontent.com/44052428/114962170-33c0d500-9ea5-11eb-8411-7e414981bf4f.png) 와 지연 : ![tau](https://user-images.githubusercontent.com/44052428/114962180-37545c00-9ea5-11eb-90a9-c7cc3fdba42d.png)이라면 송신단은 다음과 같은 신호를 받을 것이다.
 
-![equ1](https://user-images.githubusercontent.com/44052428/114962011-ed6b7600-9ea4-11eb-85fb-c426ac6d1a64.png)
 
 
