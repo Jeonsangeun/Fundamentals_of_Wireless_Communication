@@ -48,9 +48,8 @@ Cambridge 출간 David Tse 지음
 
 ![CodeCogsEqn1](https://user-images.githubusercontent.com/44052428/114958203-8bf3d900-9e9d-11eb-8a36-50f0569cf23b.gif)
 
-수신 신호는 응답은 path $i$에 따라 
-$$f(x)= if x < x_{min} : (x/x_{min})^a$$  
-$$otherwise : 0$$  
-$$P(w)=U(x/2)(7/5)/Z$$  
-$$p_{\theta}(x) = \int p_{\theta}(2z)p_{\theta}(y\mid k)dz$$  
-$$x = argmax_k((x_t-x_u+x_v)^T*x_m)/(||x_b-x_k+x_l||)$$  
+신호는 path i에 따라 감쇄와 지연이 발생하여 송신단에게 전송된다. 감쇄 : ![a](https://user-images.githubusercontent.com/44052428/114962170-33c0d500-9ea5-11eb-8411-7e414981bf4f.png) 와 지연 : ![tau](https://user-images.githubusercontent.com/44052428/114962180-37545c00-9ea5-11eb-90a9-c7cc3fdba42d.png)이라면 송신단은 다음과 같은 신호를 받을 것이다.
+
+![equ1](https://user-images.githubusercontent.com/44052428/114962011-ed6b7600-9ea4-11eb-85fb-c426ac6d1a64.png)
+
+
