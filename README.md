@@ -49,7 +49,19 @@ Cambridge 출간 David Tse 지음
 
 신호는 path i에 따라 감쇄와 지연이 발생하여 송신단에게 전송된다. 감쇄 : ![a](https://user-images.githubusercontent.com/44052428/114962170-33c0d500-9ea5-11eb-8411-7e414981bf4f.png) 와 지연 : ![tau](https://user-images.githubusercontent.com/44052428/114962180-37545c00-9ea5-11eb-90a9-c7cc3fdba42d.png)이라면 송신단은 다음과 같은 신호 ![equ1](https://user-images.githubusercontent.com/44052428/114962011-ed6b7600-9ea4-11eb-85fb-c426ac6d1a64.png) 를 받을 것이다.
 
-이때 주파수 ![f](https://user-images.githubusercontent.com/44052428/114962982-bbf3aa00-9ea6-11eb-95ba-91d7bb9656d1.png)가 감쇄와 지연에 영향을 미치지 않는다고 가정하면 입/출력 모델을 일반화 하기위해 중첨의 원리를 사용하여 non-zero bandwidth인 입력 ![x](https://user-images.githubusercontent.com/44052428/114963252-4936fe80-9ea7-11eb-9441-e5044ce42068.png)인 입/출력 모델은 다음과 같다.
+이때 주파수 ![f](https://user-images.githubusercontent.com/44052428/114962982-bbf3aa00-9ea6-11eb-95ba-91d7bb9656d1.png)가 감쇄와 지연에 영향을 미치지 않는다고 가정하면 --> (왜지?? : 감쇄와 지연은 시간과 주파수에 따라 변화한다. 그치만 이 변화는 입력신호의 주파수 (메세지 주파수)가 아닌 반송파 주파수 (메세지 주파수 <<< 반송파 주파수)를 고려하기 때문에 각 path의 감쇄와 지연은 주파수의 의존성을 생략할 수 있을 정도로 반송파 주파수가 높다~)
+입/출력 모델을 일반화 하기위해 중첩의 원리를 사용하여 non-zero bandwidth인 입력 ![x](https://user-images.githubusercontent.com/44052428/114963252-4936fe80-9ea7-11eb-9441-e5044ce42068.png)인 입/출력 모델은 다음과 같다.
 
-<p align="center"><img src="./images/equ2.png" width="20%" height="20%"/></p>!
+<p align="center"><img src="./images/equ2.png" width="30%" height="30%"/></p>!
 
+이 입/출력 모델은 Linear이다. 그럼 식의 감쇄와 지연을 한번에 표현할 수 있는 함수가 있지 않을까? (뭔가 근질근질하다) 
+바로 임펄스 응답이다. 시간 축으로 볼때 임펄스 응답은 지연을 표현할 수 있다. 그리고 감쇄는 실수인 계수이니까..?
+
+<p align="center"><img src="./images/equ3.png" width="30%" height="30%"/></p>!
+
+이렇게 표현이 가능하다.
+그럼 입/축력 모델은 깔끔하게 다음과 같이 표현된다.
+
+<p align="center"><img src="./images/equ4.png" width="30%" height="30%"/></p>!
+
+이 표현은 정말 나이스 하다 ㅋㅋㅋ 모바일 사용자의 임의의 반사기, 산란기 영향 표현, 입/출력 간 Maxwell's 방정식의 복잡한 해, 송/수신단 사이의 신호 감쇄 표현을 선형 시변 채널 필터의 임펄스 응답![h](https://user-images.githubusercontent.com/44052428/114964821-7042ff80-9eaa-11eb-8424-c57ecabf8140.png) 으로 간단하게 표현할 수 있다. WoW~
