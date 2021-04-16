@@ -39,7 +39,8 @@ Cambridge 출간 David Tse 지음
 ###### 1.1 Input/output model of the wireless channel
 무선 채널을 모델링 하기 위해서 무선 채널의 입력과 출력을 알아야 할 필요가 있다.
 
-<p align="center"><img src="./images/IO_channel.png" width="50%" height="50%"/></p>
+<p align="center"><img src="./images/IO_channel.png" width="50%" height="50%"/></p>!
+
 
 ###### 1.1.1 The wireless channel as a linear time-varing system
 
@@ -48,6 +49,7 @@ Cambridge 출간 David Tse 지음
 
 신호는 path i에 따라 감쇄와 지연이 발생하여 송신단에게 전송된다. 감쇄 : ![a](https://user-images.githubusercontent.com/44052428/114962170-33c0d500-9ea5-11eb-8411-7e414981bf4f.png) 와 지연 : ![tau](https://user-images.githubusercontent.com/44052428/114962180-37545c00-9ea5-11eb-90a9-c7cc3fdba42d.png)이라면 송신단은 다음과 같은 신호 ![equ1](https://user-images.githubusercontent.com/44052428/114962011-ed6b7600-9ea4-11eb-85fb-c426ac6d1a64.png) 를 받을 것이다.
 
+이때 주파수 ![f](https://user-images.githubusercontent.com/44052428/114962982-bbf3aa00-9ea6-11eb-95ba-91d7bb9656d1.png)가 감쇄와 지연에 영향을 미치지 않는다고 가정하면 입/출력 모델을 일반화 하기위해 중첨의 원리를 사용하여 non-zero bandwidth인 입력 ![x](https://user-images.githubusercontent.com/44052428/114963252-4936fe80-9ea7-11eb-9441-e5044ce42068.png)인 입/출력 모델은 다음과 같다.
 
-
+<p align="center"><img src="./images/equ2.png" width="50%" height="50%"/></p>!
 
