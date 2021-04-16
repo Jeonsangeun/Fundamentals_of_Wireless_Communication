@@ -1,6 +1,6 @@
 # Fundamentals_of_Wireless_Communication
 Cambridge 출간 David Tse 지음
-무선통신을 혼자 독학하고 정기 세미나를 통해 내용을 복습해보겠다!
+무선통신을 혼자 독학하고 정기 세미나를 통해 내용을 복습해보겠다! (내용은 모두 책의 내용을 주로 기입하며, 주요 내용만 올리려한다!)
 책은 너무 비싸니 pdf로 보자 하하하
 
 #### 목표
@@ -63,4 +63,4 @@ Cambridge 출간 David Tse 지음
 
 <p align="center"><img src="./images/equ4.png" width="25%" height="25%"/></p>
 
-이 표현은 정말 나이스 하다 ㅋㅋㅋ 모바일 사용자의 임의의 반사기, 산란기 영향 표현, 입/출력 간 Maxwell's 방정식의 복잡한 해, 송/수신단 사이의 신호 감쇄 표현을 선형 시변 채널 필터의 임펄스 응답![h](https://user-images.githubusercontent.com/44052428/114964821-7042ff80-9eaa-11eb-8424-c57ecabf8140.png) 으로 간단하게 표현할 수 있다. WoW~
+이 표현은 정말 나이스 하다. (책의 표현) ㅋㅋㅋ 모바일 사용자의 임의의 반사기, 산란기 영향 표현, 입/출력 간 Maxwell's 방정식의 복잡한 해, 송/수신단 사이의 신호 감쇄 표현을 선형 시변 채널 필터의 임펄스 응답![h](https://user-images.githubusercontent.com/44052428/114964821-7042ff80-9eaa-11eb-8424-c57ecabf8140.png) 으로 간단하게 표현할 수 있다. WoW~
